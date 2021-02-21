@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+/* Global Styles */
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    line-height: 1.5;
+}
+
+img{
+    max-width:20%;
+}
+
+/* Header Styles */
+
+header h1{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+header img, p{
+    margin:5px 15px 15px 15px;
+    padding:0px 5px 0px 5px;
+}
+
+header{
+    border-bottom:1px solid black;
+    padding-bottom:10px;
+}
+
+/* Main Styles */
+
+main h2{
+    margin:10px;
+    padding:0px;
+    color:green;
+}
+
+main h3, h4, p{
+    margin-left:20px;
+    margin-right:20px;
+    padding:0px 5px 0px 5px;
+}
+
+main{
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom:1px solid black;
+}
+
+.place{
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+
+footer h2{
+    margin-left:10px;
+    margin-right:10px;
+    padding:0px 5px 0px 5px;
+    color:orange;
+}
+
+footer p, ul{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+footer{
+    padding-top:10px;
+}
+
+.list-name{
+    color:orange;
+}
+
+.references{
+    color:black;
+    margin-left:5px;
+    margin-right:5px;
+}
