@@ -3,6 +3,20 @@
 <head>
 <title>Resume</title>
 <link rel="stylesheet" href="style.css">
+<script>
+    function colorChange() {
+        if (document.body.style.backgroundColor == "yellow") {
+            document.body.style.backgroundColor = "white";
+            document.getElementById("button").innerHTML=
+            "Click here to change the background color of the page!";
+        }
+        else {
+            document.body.style.backgroundColor = "yellow";
+            document.getElementById("button").innerHTML=
+            "Click again to change it back!";
+        }
+    }
+</script>
 </head>
 
 <body>
@@ -16,6 +30,8 @@
     <p>Home Number: (440) 845-1294<br>
         Cell Number: (440) 212-1559<br>
         Email: <a href="mailto:matthewloeffler29@gmail.com">matthewloeffler29@gmail.com</a></p>
+
+    <button onclick="colorChange()" id="button">Click here to change the background color of the page!</button>
 
     </header>
 
